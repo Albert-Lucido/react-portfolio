@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #4CAF50, #2E7D32);
+  color: #fff;
+  padding: 23px 25px;
+}
+
+.nav div:first-child {
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.about-us {
+  padding: 50px 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 36px;
+  color: #4CAF50;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.about-content {
+  border-radius: 10px;
+  background: #E8F5E9;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#us {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.col-lg-6 img {
+  border-radius: 10px;
+  width: 75%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  padding: 50px 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 32px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.col {
+  flex: 1;
+  background: linear-gradient(to bottom, #B2DFDB, #80CBC4);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.col a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 18px;
+}
+
+.col img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.col p {
+  color: #009688;
+  font-size: 16px;
+  text-align: left;
+}
+
+.contact-form {
+  padding: 40px 20px;
+  text-align: left;
+  background: #E8F5E9;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+}
+
+.contact-form form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background: #009688;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #00695c, #004d40);
+}
